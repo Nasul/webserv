@@ -9,7 +9,7 @@ class ContactsController < ApplicationController
       flash[:success] = "Зоявка отправлено."
       redirect_to new_contact_path
     else
-      flash[:danger] = @contact.errors.full_messages.join(", ")
+      flash[:danger] = "Ошибка: одно или несколько полей пустые."
       redirect_to new_contact_path
     end
   end
