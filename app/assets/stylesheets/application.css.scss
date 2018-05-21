@@ -22,7 +22,6 @@
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
-
 //Background gradient
 .navbar {
   background: #4da6ff;
@@ -81,9 +80,35 @@ h1, h2, h3 {
 
 .how-works2 {
   background: white;
+  padding-bottom: 30px;
   height: auto;
+  
 }
 //About page
 .our-service {
   margin-top: -20px;
+}
+.service-page {
+  height: 550px;
+}
+//footer 
+footer {
+  background: #0c0804;
+  position: relative;
+  color: white;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+.footer-col1, .footer-col2 {
+  list-style-type: none;
+ }
+ a:link {
+  color: white;
+}
+.copyright-icon {
+  position: relative;
+  bottom: -75px;
 }
