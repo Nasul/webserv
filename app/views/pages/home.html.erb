@@ -1,9 +1,13 @@
 
 <div class="home-callout container-fluid">
-  <h1 class="container">ПОЛУЧАЙТЕ ОПЛАТУ НАПРЯМУЮ<br> ОТ КЛИЕНТОВ</h1>
-   <div class="container">
-    <%= link_to " Подать заявку", new_contact_path, :class => "btn btn-primary fa fa-check-circle" %>
-   </div>  
+  <div class="container main-message">
+    <div class="row">
+      <div class="col-10 col-md-10 col-sm-10">
+        <h1 class="Poluchayte text-center">ПОЛУЧАЙТЕ ОПЛАТУ НАПРЯМУЮ ОТ КЛИЕНТОВ</h1>
+        <%= link_to " Подать заявку", new_contact_path, :class => "btn btn-default btn-block fa fa-check-circle" %>
+      </div>  
+    </div>
+  </div>
 </div>
 <div class="home-message container-fluid well">
   <h3 class="container">
@@ -11,7 +15,7 @@
   </h3>
 </div>
 <div class="how-works1 container-fluid">
-  <h1 class="text-center">КАК ЭТО РАБОТАЕТ?</h1>
+  <h1 class="text-center kak-eto">КАК ЭТО РАБОТАЕТ?</h1>
     <div class="container">  
       <div class="row">
         <div class="col-6 col-md-4"><h4 class="text-center"><%= image_tag("register-logo.png", :alt => "register-logo") %><br><br>Зарегистрируйтесь</h4><p>Подписание договора и интеграция с
@@ -52,7 +56,7 @@
                  </ul>
               </div>
               <div class="col-4 col-md-4 col-sm-4 copyright-icon">
-                <i class="far fa-copyright"> 2018 Finserv LLC., All Rights Reserved</i>
+                <i class="far fa-copyright"> 2018 Payserv LLC., All Rights Reserved</i>
               </div>
           </div>
         </div>

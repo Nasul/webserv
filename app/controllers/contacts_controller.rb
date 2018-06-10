@@ -12,7 +12,7 @@ class ContactsController < ApplicationController
       body = params[:contact][:comments]
       ContactMailer.contact_email(company, name, email, body).deliver
       flash[:success] = "Зоявка отправлено."
-      redirect_to new_contact_path
+      redirect_to message_path
     else
       flash[:danger] = "Ошибка: одно или несколько полей пустые."
       redirect_to new_contact_path

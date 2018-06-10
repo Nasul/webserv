@@ -4,6 +4,10 @@ class PagesController < ApplicationController
 
   def service
   end
+  
+  def message
+  end
+  
 end
 
 

@@ -23,12 +23,11 @@ html {
   height: 100%;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'Open Sans', sans-serif;
 }
 //Background gradient
 .navbar {
-  background: #4da6ff;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -37,6 +36,9 @@ h1, h2, h3 {
   font-size: 20px;
 }
 
+.navbar-brand {
+  font-size: 25px;
+}
 //Nav styles
 .navbar {
   border: none;
@@ -58,28 +60,47 @@ h1, h2, h3 {
     background-color: #4da6ff;
   }
 }
-
-img {
-  padding-left: 4px;
+#navigation-menu {
+  //Gradient provided by @_ighosh at uiGradients.com
+ background: #4776e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4776e6, #8e54e9); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4776e6, #8e54e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
+img {
+  padding-left: 5px;
+}
+.Poluchayte {
+   font-family: 'Playfair Display SC', serif;
+}
+#main-nav-collapse {
+  font-family: 'Playfair Display SC', serif;
+}
+.kak-eto {
+  font-family: 'Playfair Display SC', serif;
+}
 // Home page styles
 .home-callout {
+  background: #4776e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4776e6, #8e54e9); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4776e6, #8e54e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
-  margin-top: -80px;
+  margin-top: -25px;
   padding-top: 50px;
-  padding-bottom: 500px;
+  padding-bottom: 200px;
  }
   .home-callout {
-  background-image: url(background.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 100%;
   height: 100%;
   display: block;
+  position: static;
+  
   }
-
+.main-message {
+  margin-top: 40px;
+}
 
 
 //HOW IT WORKS SECTION
@@ -102,6 +123,7 @@ hr {
 //About page
 .our-service {
   margin-top: -20px;
+ 
 }
 .service-page {
   height: 550px;
@@ -132,31 +154,30 @@ hr {
   bottom: -75px;
 }
 
-
-/* Desktop */
+/* Desktop 
 @media only screen and (min-width: 980px) and (max-width: 1024px) {
   .home-callout {
     background-image: url(background.jpg);
    }
 }
-/* Tablet */
+/* Tablet 
 @media only screen and (min-width: 760px) and (max-width: 980px) {
   .home-callout {
     background-image: url(background2.jpg);
    }
 }
-/* Mobile */
+/* Mobile 
 @media only screen and (min-width: 350px) and (max-width: 760px) {
   .home-callout {
     background-image: url(background3.jpg);
   }
 }
-/* Mobile */
+/* Mobile 
 @media only screen and (max-width: 350px) {
   .home-callout {
     background-image: url(background4.jpg);
   }
-}
+} */
 /* For mobile phones: 
 [class*="col-"] {
     width: 100%;
